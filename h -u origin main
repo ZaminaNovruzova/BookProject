@@ -1,0 +1,14 @@
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/main/resources/application.properties b/src/main/resources/application.properties[m
+[1mindex 9c5dce1..739f4c0 100644[m
+[1m--- a/src/main/resources/application.properties[m
+[1m+++ b/src/main/resources/application.properties[m
+[36m@@ -1,6 +1,6 @@[m
+ spring.jpa.hibernate.ddl-auto=update[m
+ spring.jpa.hibernate.show-sql=true[m
+ spring.datasource.url=jdbc:mysql://localhost:3306/Book[m
+[31m-spring.datasource.username=root[m
+[31m-spring.datasource.password= ItalyIsMyDream24_[m
+[32m+[m[32mspring.datasource.username=[m
+[32m+[m[32mspring.datasource.password=[m
+ [m
